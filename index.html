@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokumentasi javas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <!-- navbar -->
+    <nav>
+      <div class="navhead">
+        <button id="JS1">JavaScript</button>
+        <button id="JS2">Menu</button>
+      </div>
+    </nav>
+    <div class="menuC">
+      <div class="menu-btn">
+        <button id="MenuL">Log-in</button><br />
+        <button id="MenuP">Profile</button><br />
+        <button id="">Tentang</button><br />
+      </div>
+      <div class="setW">
+        <button id="setW">Setting</button>
+        <div class="changeColor">
+          <button id="Terang"></button>
+          <button id="Gelap"></button>
+        </div>
+        <button id="delP">Log-out</button>
+      </div>
+    </div>
+    <div class="JS-1">
+      <button id="onB2">Sejarah JS</button><br />
+      <button id="onCode">Code JS</button><br />
+      <button></button><br />
+    </div>
+    <!-- end navbar -->
+
+    <!-- Herosection -->
+    <main class="hero">
+      <div class="heroSection">
+        <h1>Gfors-ZI</h1>
+        <p>Dokumentasi | JavaScript</p>
+      </div>
+    </main>
+    <!-- end Herosection -->
+
+    <!-- menu Login -->
+    <div class="menuL">
+      <h2>Login</h2>
+      <form id="itemL">
+        <input placeholder="Nama" type="text" id="Lnama" /><br />
+        <input placeholder="Umur" type="text" id="Lumur" /><br />
+        <input
+          placeholder="Gender"
+          type="text"
+          id="Lgender"
+          name="Lgender"
+        /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- end menu Login -->
+
+    <!-- menu pf -->
+    <div class="profile">
+      <h2>Profile</h2>
+      <div class="pp"></div>
+      <ul class="list">
+        <li><b>Nama: </b><span id="NAMA"></span></li>
+        <li><b>Umur: </b><span id="UMUR"></span></li>
+        <li><b>Gender: </b><span id="GENDER"></span></li>
+      </ul>
+    </div>
+    <!-- end menu pf -->
+
+    <!-- body2 -->
+    <div class="SJR-JS">
+      <br />
+      <button id="offB2">X</button>
+      <h1>Sejarah JavaScript</h1>
+      <div class="paragraf">
+        <p id="js1"></p>
+        <p id="js2"></p>
+      </div>
+    </div>
+
+    <div class="code-JS">
+      <br />
+      <button id="offCode">X</button>
+      <h1>Code JavaScript</h1>
+    </div>
+    <!-- end body2 -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
